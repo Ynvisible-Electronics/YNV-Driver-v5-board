@@ -9,7 +9,7 @@
         "platforms":
         [
           {
-            "name": "Ynvisible Driver v5",
+            "name": "YNV Driver v5",
             "architecture": "samd",
             "version": "1.0.1",
             "category": "Contributed",
