@@ -9,6 +9,49 @@
         "platforms":
         [
           {
+            "name": "Ynvisible Driver v5",
+            "architecture": "samd",
+            "version": "1.0.1",
+            "category": "Contributed",
+            "url": "https://github.com/Ynvisible-Electronics/YNV-Driver-v5-board/raw/refs/heads/main/custom_board/Driver_v5-1.0.1.zip",
+            "archiveFileName": "Driver_v5-1.0.1.zip",
+            "checksum": "SHA-256:183F063E0E4DFDDA6E973C66147BAD909D179D70CD04E98DC56260553665A903",
+            "size": "851796",
+            "boards": [
+              {
+                "name": "Ynvisible Driver v5"
+              }
+            ],
+            "toolsDependencies":
+            [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "7-2017q4"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.7.0-arduino3"
+              },
+              {
+                "packager": "arduino",
+                "name": "openocd",
+                "version": "0.10.0-arduino9"
+              },
+              {
+                "packager": "arduino",
+                "name": "CMSIS",
+                "version": "4.5.0"
+              },
+              {
+                "packager": "arduino",
+                "name": "CMSIS-Atmel",
+                "version": "1.2.0"
+              }
+            ]
+          },
+          {
             "name": "YNV Driver v5",
             "architecture": "samd",
             "version": "1.0.0",
@@ -32,7 +75,7 @@
               {
                 "packager": "arduino",
                 "name": "bossac",
-                "version": "1.8.0-48-gb176eee"
+                "version": "1.7.0-arduino3"
               },
               {
                 "packager": "arduino",
